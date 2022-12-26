@@ -1,0 +1,20 @@
+Welcome to the Cato Networks DevOps & SRE home assignment.
+
+1. You need to get the key to the 1st teasure chest from http://ops.puzzle.catonetworks.xyz/puzzle_01/
+Unfourtunatley internet isn't working so well... Fix it and you'll find the username, the password is the UNIX epoch of "July 29, 1954 00:00 UTC"
+
+2. A Linux shell challenge - in the file "linux_shell_puzzle.txt" there is a coded password, it is the first char of every 1000th line of text.
+Extract the full password and it will open the 2nd treasure chest.
+** BONUS POINTS: Write a BASH one-liner that extracts the coded password.
+
+3. A programming challenge - inside the programming_challenge/ dir there is a binary file - "myPrecious", run it with "./myPrecious --help" and read the instructions.
+Once solved it will unlock the 3rd treasure chest.
+NOTES: The preferred language is Python and this image has a working Python setup, you can choose any language you desire to accomplish this, it's up to you to setup the build env for yourself ;)
+
+    3a. ** BONUS POINTS: After solving #3 write code that counts how many times every individual letter and individual number (e.g. 576 is three individual numbers)
+     appears in the solution file and generates a JSON file that shows this dataset.
+
+
+4. An Ansible challenge - inside the ansible_challenge/ dir there is a playbook - "run.yml", you must successfully execute the playbook until the
+last task reveals the password to the 4th and final treasure chest - send us the output of the very last task of the playbook.
+
